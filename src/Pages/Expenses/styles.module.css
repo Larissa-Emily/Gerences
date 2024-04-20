@@ -1,0 +1,64 @@
+.form_expense {
+  width: 500px;
+  background: #0d1015;
+  border-radius: 10px;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.header {
+  padding: 10px 0px;
+}
+
+.header span {
+  display: block;
+  color: #333;
+}
+
+.form_expense input {
+  width: 92%;
+  padding: 20px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  background-color: #ececec;
+}
+
+.form_expense form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+.form_expense form label {
+  color: #c3c3c3;
+}
+
+.button_add {
+  width: 100%;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  background: #49a575;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.button_add:hover {
+  background: #580000;
+}
+
+@media (min-width: 1390px) {
+  .form_expense {
+    width: 600px;
+  }
+}
+
+@media (max-width: 690px) {
+  .form_expense {
+    width: 450px;
+  }
+}

@@ -1,0 +1,78 @@
+header h1{
+  text-align: start;
+}
+
+.form_invoice {
+  width: auto;
+  padding: 20px 30px;
+  background: #0d1015;
+  border-radius: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.form_invoice input {
+  width: 80%;
+  display: block;
+  padding: 20px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  background-color: #ececec;
+}
+
+.form_invoice input[type="date"]{
+  color: #797979;
+}
+
+form {
+  display: flex;
+}
+.form_invoice form label {
+  color: #c3c3c3;
+}
+
+header {
+  padding: 10px 0px;
+  color: #fff !important;
+}
+
+.descrition,
+.dates {
+  margin: 0px 15px;
+}
+
+.btn_invoice {
+  width: 90%;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  background: #49a575;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn_invoice:hover {
+  background: #be5703;
+}
+
+@media (max-width: 1320px) {
+  form {
+    display: block;
+  }
+}
+
+@media(max-width: 690px){
+  .form_invoice{
+    width: 400px;
+  }
+  .form_invoice input{
+    width: 90%;
+  }
+
+  .btn_invoice{
+    width: 100%;
+  }
+} 

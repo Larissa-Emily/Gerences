@@ -1,0 +1,67 @@
+.content_form {
+  display: block;
+}
+
+.content_form input {
+  width: 450px;
+  display: block;
+  padding: 20px;
+  margin: 40px auto;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline:0.5px solid #845ec2a2;
+  color: #845ec2a2;
+}
+
+.content_form input::placeholder{ 
+ color: #845ec2a2;
+
+}
+
+p {
+  text-align: end;
+  color: #845ec2a2;
+  padding: 25px 40px;
+  cursor: pointer;
+}
+
+p:hover {
+  color: #845ec2;
+}
+
+h2 {
+  color: #845ec265;
+}
+
+h2 span {
+  color: #845ec2a2;
+}
+
+button{
+  width: 300px;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  background: #845ec2;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:hover{
+  background: #845ec2be;
+}
+
+
+a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 900;
+} 
+
+
+@media (max-width: 980px){
+  .content_form input{
+    width: 80%;
+  }
+} 

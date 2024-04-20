@@ -1,0 +1,19 @@
+.btn_link{
+    width: 250px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background: #845ec2;
+    cursor: pointer;
+}
+
+.btn_link:hover{
+    background: #845ec2be;
+}
+
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+} 

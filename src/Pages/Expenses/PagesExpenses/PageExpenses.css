@@ -1,0 +1,57 @@
+.container_data {
+  height: 60px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background: #00c9a754;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 1.3em;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.content header h1{
+  text-align: center !important;
+}
+
+.container_data div {
+  margin: 0 20px;
+}
+
+.current_month {
+  width: 200px;
+  height: 100px;
+  background: #00c9a786;
+  display: flex;
+  justify-content: center; /* Alinha horizontalmente */
+  align-items: center; /* Alinha verticalmente */
+}
+
+.expense_area {
+  width: 58%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 50px;
+  background: #0d1015;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.expense_area ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.expense_area ul li {
+  margin: 10px;
+}
+
+.expense_area ul li span {
+  display: block;
+}

@@ -1,0 +1,91 @@
+.container_global {
+  display: flex;
+  width: 100%;
+  color: #fff !important;
+}
+
+.container {
+  flex: 3;
+  background: #0d1015 !important;
+  border-radius: 10px;
+  margin: 35px 25px;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+.greeting {
+  padding: 20px;
+  margin-left: 50px;
+  color: #fff;
+}
+
+.quick_access {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.despesa,
+.conta,
+.fatura,
+.reserva,
+.relatorio {
+  margin: 20px 50px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.despesa a {
+  color: #ff0000 !important;
+}
+
+.despesa a:hover {
+  color: #ff00008a !important;
+}
+
+.conta a{
+  color: #008000;
+}
+
+.conta a:hover {
+  color: #00800086;
+}
+
+.fatura a {
+  color: #ff9900;
+}
+
+.fatura a:hover {
+  color: #ff990085;
+}
+
+.reserva {
+  color: #f6c00f;
+}
+
+.reserva:hover {
+  color: #f6c00f81;
+}
+
+.relatorio {
+  color: #845ec2;
+}
+
+.relatorio:hover {
+  color: #845ec283;
+}
+
+.icon span {
+  font-size: 3em;
+}
+
+.icon h4 {
+  color: #fff;
+}
+
+@media (min-width: 1690px) {
+  .container_global {
+    width: 70%;
+  }
+}

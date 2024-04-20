@@ -1,0 +1,14 @@
+.title{
+  text-align: start;
+  margin-bottom: 100px;
+}
+
+.title h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.title h1,
+.title h2 {
+    color: #845EC2;
+}

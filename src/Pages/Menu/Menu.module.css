@@ -1,0 +1,41 @@
+.menu_container {
+  width: 100vw;
+  background: #00c9a70c;
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+.menu_container .logo h1 {
+  color: #00c9a7;
+  font-size: 2.5em;
+}
+
+.menu_list {
+  list-style: none;
+  display: flex;
+  font-size: 1.5em;
+}
+
+.item {
+  margin-top: 10px;
+  margin-right: 1.5em;
+}
+
+.item a {
+  text-decoration: none;
+  color: #00c9a7;
+}
+
+.item a:hover {
+  border-bottom: 1px solid #845ec2;
+  color: #845ec2;
+}
+
+@media (max-width: 690px) {
+  .menu_container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

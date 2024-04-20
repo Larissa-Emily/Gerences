@@ -1,0 +1,18 @@
+.service {
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+@media (min-width: 1390px){
+    .service{
+        gap: 100px;
+    }
+}
+
+@media (max-width: 1124px){
+    .service{
+        flex-direction: column;
+    }
+}

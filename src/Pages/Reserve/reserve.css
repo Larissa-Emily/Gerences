@@ -1,0 +1,38 @@
+.container_reserve{
+    width: auto;
+    padding: 20px 30px;
+    background: #0d1015;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.gerencie, .value{
+    padding: 20px;
+}
+
+.value {
+    text-align: center;
+    align-items: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.gerencie button{
+    width: 200px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+    background: #49a575;
+}
+
+@media(max-width: 690px){
+    .container_reserve{
+      width: 400px;
+    }
+  }

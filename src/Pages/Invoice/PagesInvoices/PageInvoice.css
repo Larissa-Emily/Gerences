@@ -1,0 +1,110 @@
+.container_invoice {
+  color: #ffffff;
+}
+
+.container_invoice header {
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.amount_card {
+  width: 100%; /* O contêiner assume a largura total da tela */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Espaçamento entre as divs */
+  text-align: center;
+  align-items: center;
+}
+
+.not_pay,
+.total_due,
+.invoice_create,
+.invoice_not_pay,
+.invoices_paid {
+  width: 350px;
+  height: 120px;
+  border-radius: 3px;
+  display: block;
+  border: 1px solid #0d1015;
+}
+
+.not_pay span,
+.total_due span {
+  display: block;
+}
+
+.not_pay_color {
+  color: #efad4d;
+  background: #0d1015;
+}
+
+.total_due_color {
+  color: #d9544f;
+  background: #0d1015;
+}
+
+.not_pay_color,
+.total_due_color {
+  padding: 12px;
+}
+
+.not_pay_value,
+.total_due_value {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.invoice_create_color {
+  background: #0d1015;
+  color: #418bca;
+}
+
+.invoice_not_pay_color {
+  background: #0d1015;
+  color: #efad4d;
+}
+.invoice_create_color,
+.invoice_not_pay_color {
+  padding: 5px;
+}
+
+.invoices_paid_color {
+  color: #55d880;
+  background: #0d1015;
+}
+
+.container_area {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.area {
+  width: 90%;
+  border: 1px solid #0d1015;
+  border-radius: 3px;
+  list-style: none;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.area li {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  align-items: center;
+}
+
+.area button {
+  width: auto;
+}
+
+@media (max-width: 890px) {
+  .area li {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+  }
+}
